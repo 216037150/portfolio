@@ -1,5 +1,4 @@
-*
-{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,19 +7,21 @@
 
 
 
-body{
-color: #ede;
+body
+{ 
+color:#ededed;
 }
 
-.header{
+.header
+{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 10px;
+  padding: 20px 10%;
   background-color: transparent;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   z-index: 100;
 }
@@ -33,19 +34,18 @@ color: #ede;
   font-weight: 600;
 }
 
-
 .navbar a{
   display: inline-block;
   font-size: 25px;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
-  margin-left: 25px;
-  transition: 25;
+  margin-left: 35px;
+  transition: .3s;
 }
 
 .navbar a:hover{
-  color: rgb(23, 196, 219);
+  color: #0ef;
 }
 
 .home{
@@ -62,11 +62,11 @@ color: #ede;
 }
 
 .home-content{
-  max-width: 200px;
+  max-width: 600px;
 }
 
 .home-content h3{
-  font-size: 12px;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -76,11 +76,16 @@ color: #ede;
     margin: -3px 0;
   }
 
-.home-comm a{
+
+.home-content p{
+    font-size: 20px;
+  }
+
+.home-content a{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 31px;
+  width: 40px;
   height: 40px;
   background: transparent;
   border: 2px solid aqua;
@@ -89,6 +94,63 @@ color: #ede;
   color: aqua;
   text-decoration: none;
   margin: 30px 15px 30px 0;
+}
+
+.home-sci a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #0ef ;
+  color: #0ef;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+}
+
+
+.home-sci a:hover{
+  background:transparent;
+  color: #08f4;
+}
+
+#btn-box{
+  display: inline-block;
+  padding: 12px;
+  background: aqua;
+  border-radius: 40px;
+  font-size: 16px;
+  color: rgb(5, 43, 61);
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  width: 200px;
+}
+
+#btn-box:hover{
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+
+footer {
+  color: #fff;
+  background-color: black;
+  position:fixed;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.Siyabonga{
+max-width: 1;
+max-height: 0.3;
 }
 
 
