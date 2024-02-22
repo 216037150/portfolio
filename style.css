@@ -142,16 +142,20 @@ footer {
   padding: 20px;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 80%;
   margin: 0;
   margin-left: 0;
   margin-right: 0;
+  text-align: center;
 }
 
-.Siyabonga{
+.Siyabonga img{
 max-width: 1;
 max-height: 0.3;
+border-radius: 88%;
 }
 
-
-
+#contact-form{
+  text-align: center;
+  background-image: url(assets/images/wallpaper.jpg);
+}
