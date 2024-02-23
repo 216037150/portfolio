@@ -40,8 +40,9 @@ color:#ededed;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
-  margin-left: 35px;
+  margin-left: 15px;
   transition: .3s;
+  border: #08f4;
 }
 
 .navbar a:hover{
@@ -89,7 +90,6 @@ color:#ededed;
   height: 40px;
   background: transparent;
   border: 2px solid aqua;
-  border-radius: 50%;
   font-size: 20px;
   color: aqua;
   text-decoration: none;
@@ -149,13 +149,16 @@ footer {
   text-align: center;
 }
 
-.Siyabonga img{
-max-width: 1;
-max-height: 0.3;
-border-radius: 88%;
+.Siyabonga img {
+  max-height: 0.3;
+  border-radius: 100%;
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%);
 }
 
-#contact-form{
+.contact-form{
   text-align: center;
   background-image: url(assets/images/wallpaper.jpg);
 }
