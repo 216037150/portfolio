@@ -12,8 +12,7 @@ body
 color:#ededed;
 }
 
-.header
-{
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,7 +23,9 @@ color:#ededed;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  margin-bottom: 20px; /* Add margin between headers */
 }
+
 
 .logo{
   position: relative;
@@ -185,5 +186,10 @@ footer {
 
     .download-link .icon-box i,
     .download-link .icon-document i {
-      color: #555; /* Adjust icon color */
+      color: rgb(67, 67, 143); /* Adjust icon color */
     }
+.courses a{
+  display: flex;
+}
+
+
